@@ -46,11 +46,10 @@ while 1:
 
     if res>res_prev and res_prev!=0:
         break
-    
-    else:
-        result='\n\nPLATELET SURVIVAL TIME: '+str(round(n/a,1))+' days'+'\n\nNumber of hits: '+str(n)+'\na: '+str(round(a,3))+ '\nc: '+str(round(c))+ '\nResidual: '+str(round(res))
-        n+=1
-        res_prev=res 
+
+    result='\n\nPLATELET SURVIVAL TIME: '+str(round(n/a,1))+' days'+'\n\nNumber of hits: '+str(n)+'\na: '+str(round(a,3))+ '\nc: '+str(round(c))+ '\nResidual: '+str(round(res))
+    n+=1
+    res_prev=res 
 
 print(result)        
 end=input()
